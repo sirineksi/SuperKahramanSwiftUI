@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		23AB230F2A14F1A800DCA38E /* SuperKahramanSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AB230E2A14F1A800DCA38E /* SuperKahramanSwiftUIApp.swift */; };
-		23AB23112A14F1A800DCA38E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AB23102A14F1A800DCA38E /* ContentView.swift */; };
+		23AB23112A14F1A800DCA38E /* ListeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AB23102A14F1A800DCA38E /* ListeView.swift */; };
 		23AB23132A14F1AA00DCA38E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23AB23122A14F1AA00DCA38E /* Assets.xcassets */; };
 		23AB23162A14F1AA00DCA38E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23AB23152A14F1AA00DCA38E /* Preview Assets.xcassets */; };
+		23AB231D2A14F25200DCA38E /* SuperKahraman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AB231C2A14F25200DCA38E /* SuperKahraman.swift */; };
+		23AB231F2A164F3100DCA38E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AB231E2A164F3100DCA38E /* MapView.swift */; };
+		23AB23212A16540100DCA38E /* DetayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AB23202A16540100DCA38E /* DetayView.swift */; };
+		23AB23232A1655AA00DCA38E /* OzelGorselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AB23222A1655AA00DCA38E /* OzelGorselView.swift */; };
+		23AB23252A1B748500DCA38E /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AB23242A1B748500DCA38E /* ListRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		23AB230B2A14F1A800DCA38E /* SuperKahramanSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperKahramanSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23AB230E2A14F1A800DCA38E /* SuperKahramanSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperKahramanSwiftUIApp.swift; sourceTree = "<group>"; };
-		23AB23102A14F1A800DCA38E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		23AB23102A14F1A800DCA38E /* ListeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeView.swift; sourceTree = "<group>"; };
 		23AB23122A14F1AA00DCA38E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23AB23152A14F1AA00DCA38E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		23AB231C2A14F25200DCA38E /* SuperKahraman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperKahraman.swift; sourceTree = "<group>"; };
+		23AB231E2A164F3100DCA38E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		23AB23202A16540100DCA38E /* DetayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayView.swift; sourceTree = "<group>"; };
+		23AB23222A1655AA00DCA38E /* OzelGorselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OzelGorselView.swift; sourceTree = "<group>"; };
+		23AB23242A1B748500DCA38E /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +62,14 @@
 			isa = PBXGroup;
 			children = (
 				23AB230E2A14F1A800DCA38E /* SuperKahramanSwiftUIApp.swift */,
-				23AB23102A14F1A800DCA38E /* ContentView.swift */,
+				23AB23102A14F1A800DCA38E /* ListeView.swift */,
 				23AB23122A14F1AA00DCA38E /* Assets.xcassets */,
 				23AB23142A14F1AA00DCA38E /* Preview Content */,
+				23AB231C2A14F25200DCA38E /* SuperKahraman.swift */,
+				23AB231E2A164F3100DCA38E /* MapView.swift */,
+				23AB23202A16540100DCA38E /* DetayView.swift */,
+				23AB23222A1655AA00DCA38E /* OzelGorselView.swift */,
+				23AB23242A1B748500DCA38E /* ListRowView.swift */,
 			);
 			path = SuperKahramanSwiftUI;
 			sourceTree = "<group>";
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23AB23112A14F1A800DCA38E /* ContentView.swift in Sources */,
+				23AB23232A1655AA00DCA38E /* OzelGorselView.swift in Sources */,
+				23AB23252A1B748500DCA38E /* ListRowView.swift in Sources */,
+				23AB23212A16540100DCA38E /* DetayView.swift in Sources */,
+				23AB23112A14F1A800DCA38E /* ListeView.swift in Sources */,
+				23AB231F2A164F3100DCA38E /* MapView.swift in Sources */,
 				23AB230F2A14F1A800DCA38E /* SuperKahramanSwiftUIApp.swift in Sources */,
+				23AB231D2A14F25200DCA38E /* SuperKahraman.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
